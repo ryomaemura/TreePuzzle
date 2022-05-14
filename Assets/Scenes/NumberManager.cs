@@ -57,6 +57,8 @@ public class NumberManager : MonoBehaviour
         for (int i = 0; i < numbers.Length; i++) {
             if (numbers[i] != 0) {
                 buttonTexts[i].text = numbers[i].ToString();
+            } else {
+                buttonTexts[i].text = "";
             }
         }
     }
